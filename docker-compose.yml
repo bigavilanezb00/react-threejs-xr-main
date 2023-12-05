@@ -1,0 +1,10 @@
+version: '3.6'
+services:
+  node:
+    image: node:18.18-alpine
+    working_dir: /apps
+    tty: true
+    ports: 
+      - 3000:3000
+    volumes:
+      - ./apps:/apps
