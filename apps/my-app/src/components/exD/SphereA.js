@@ -3,7 +3,7 @@ const SphereA = (props) => {
         <mesh
         {...props}>
             <sphereGeometry args={[1,32,16]}/>
-            <meshStandardMaterial color={'black'}/>
+            <meshStandardMaterial color={'yellow'}/>
         </mesh>
     );
 }
